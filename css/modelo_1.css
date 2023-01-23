@@ -1,0 +1,4 @@
+#cuadricula{
+    display: grid;
+    grid-template-columns: 200, 500, 300;
+}
