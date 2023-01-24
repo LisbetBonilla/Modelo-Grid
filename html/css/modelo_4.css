@@ -1,0 +1,91 @@
+#cuadricula {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas: "A B B C C C"
+                            "A B B D D D"
+                            "A E E D D D"
+                            ". E E D D D"
+                            "F F F F . G"
+                            "F F F F . G";
+
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    border: 3px solid #000;
+    height: 600px;
+    width: 90%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:x-large
+    
+
+}
+
+
+.A {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.B {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.C {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.D {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.E {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.F {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.G {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    grid-area: G;
+    font-family: Arial, Helvetica, sans-serif;
+}
