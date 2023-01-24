@@ -1,0 +1,27 @@
+#cuadricula {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 80px);
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 45px;
+
+    border: 3px solid #000;
+    height: 600px;
+    width: 90%;
+
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.item {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
