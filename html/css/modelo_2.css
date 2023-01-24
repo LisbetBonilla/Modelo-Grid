@@ -1,11 +1,9 @@
 #cuadricula {
     display: grid;
-    grid-template-columns: repeat(11, 400px);
-    grid-template-rows: repeat(2, auto);
-    grid-auto-flow: column;
+    grid-template-columns: repeat(11,auto);
+    grid-template-rows: repeat(400px, auto) ;
 
-
-    border: 3px solid #000;
+    border: 3px solid black;
     height: 600px;
     width: 90%;
 
@@ -23,4 +21,13 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.item2 {
+    background-color: var(--color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 5px solid red;
 }
